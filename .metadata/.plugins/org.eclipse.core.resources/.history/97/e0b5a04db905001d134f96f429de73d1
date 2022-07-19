@@ -1,0 +1,13 @@
+package SignupRelatedTests;
+
+import org.testng.annotations.Test;
+
+public class VerifySignUpProcess {
+	
+	@Test
+	public void SignUpVerificationTest()
+	{
+		
+	}
+
+}

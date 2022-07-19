@@ -1,0 +1,20 @@
+package SignupRelatedTests;
+
+import org.testng.annotations.Test;
+
+import Base.Framework;
+import Pages.HomePageackage.HomePage;
+import Pages.SignUpPage.SignUpPage;
+
+public class VerifySignUpProcess extends Framework {
+	
+	@Test
+	public void SignUpVerification()
+	{
+		HomePage.ClickOnSignUpButton();
+		SignUpPage.EntireSignupProcess();
+		
+		
+	}
+
+}

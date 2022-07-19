@@ -1,0 +1,9 @@
+package Pages.SignUpPage;
+
+import Base.Framework;
+
+public class SignUpPage extends Framework{
+	
+	
+
+}

@@ -1,0 +1,18 @@
+import org.openqa.selenium.By;
+
+import Base.Framework;
+
+public class HomePage extends Framework{
+	
+	// Locators 
+	By SignUpButton = By.xpath("(//span[contains(text(),' Sign In ')])[2]");
+	
+	
+	// Clicking on signup button
+	public void ClickOnSignUuButton()
+	{
+		driver.findElement(SignUpButton).click();
+		
+	}
+
+}

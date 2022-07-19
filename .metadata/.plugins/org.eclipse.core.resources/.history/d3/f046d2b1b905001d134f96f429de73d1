@@ -1,0 +1,18 @@
+package SignupRelatedTests;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import Base.Framework;
+
+public class VerifySignUpProcess extends Framework {
+	
+	@Test
+	public void SignUpVerificationTest()
+	{
+		driver.findElement(By.xpath("(//span[contains(text(),' Sign In ')])[2]")).click();
+		
+		
+	}
+
+}

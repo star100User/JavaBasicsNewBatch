@@ -1,0 +1,42 @@
+package Pages.SignUpPage;
+
+import org.openqa.selenium.By;
+
+import Base.Framework;
+
+public class SignUpPage extends Framework{
+	
+	
+	public static By UserName = By.xpath("//input[@data-gigya-placeholder='Email or Username']");
+	public static By Password = By.xpath("//input[@data-gigya-placeholder='Email or Username']");
+	public static By SigninButton = By.xpath("//input[@value='Sign In']");
+	
+	public static void EnterEmail(String dataFroUsername)
+	{
+		
+		driver.findElement(UserName).sendKeys(dataFroUsername);
+	}
+	
+	
+	public static void EnterPassword(String password)
+	{
+		driver.findElement(Password).sendKeys(password);
+	}
+	
+	public static void ClickoNLoginButtion()
+	{
+		driver.findElement(SigninButton).click();
+	}
+	
+	public static void EntireSignupProcess(String usernamedata , String passworddata)
+	{
+		EnterEmail(usernamedata);
+		EnterPassword(passworddata);
+		ClickoNLoginButtion();
+				
+	}
+	
+	
+	
+
+}
