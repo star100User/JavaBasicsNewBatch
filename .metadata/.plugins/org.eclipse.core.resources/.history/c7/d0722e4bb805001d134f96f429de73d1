@@ -1,0 +1,22 @@
+package Base;
+
+import org.openqa.selenium.WebDriver;
+
+public class Framework {
+	
+	// global : It should be accessible to all teh methods 
+	WebDriver driver; 
+	// start 
+	
+	public void StartMethod()
+	{
+		
+		
+	}
+	// end 
+	public void End()
+	{
+		
+	}
+
+}

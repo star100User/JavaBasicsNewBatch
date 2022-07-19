@@ -1,0 +1,26 @@
+package Pages.HomePageackage;
+
+import org.openqa.selenium.By;
+
+import Base.Framework;
+
+public class HomePage extends Framework{
+	
+	// Locators 
+	public static By SignUpButton = By.xpath("(//span[contains(text(),' Sign In ')])[2]");
+	
+	
+	// Clicking on signup button
+	public static  void ClickOnSignUpButton()
+	{
+		driver.findElement(SignUpButton).click();
+		
+	}
+	
+	public static void ClickLaterOfAlert()
+	{
+		driver.switchTo().alert().dismiss();
+		Thread.sleep(3000);
+	}
+
+}

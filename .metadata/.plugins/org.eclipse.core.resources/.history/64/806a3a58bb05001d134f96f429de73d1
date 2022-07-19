@@ -1,0 +1,16 @@
+package SignupRelatedTests;
+
+import org.testng.annotations.Test;
+
+import Base.Framework;
+
+public class VerifySignUpProcess extends Framework {
+	
+	@Test
+	public void SignUpVerification()
+	{
+		HomePage.
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package Pages.SignUpPage;
+
+import Base.Framework;
+
+public class SignUpPage extends Framework{
+	
+	public static void EnterEmail()
+	{
+		
+	}
+	
+	
+	public static void EnterPassword()
+	{}
+	
+	public void ClickoNLoginButtion()
+	{
+		
+	}
+	
+	public static void EntireSignupProcess()
+	{
+		
+		
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,39 @@
+package Pages.SignUpPage;
+
+import org.openqa.selenium.By;
+
+import Base.Framework;
+
+public class SignUpPage extends Framework{
+	
+	
+	public static By UserName = By.name("username");
+	
+	public static void EnterEmail()
+	{
+		
+	}
+	
+	
+	public static void EnterPassword()
+	{
+		
+	}
+	
+	public static void ClickoNLoginButtion()
+	{
+		
+	}
+	
+	public static void EntireSignupProcess()
+	{
+		EnterEmail();
+		EnterPassword();
+		ClickoNLoginButtion();
+				
+	}
+	
+	
+	
+
+}
